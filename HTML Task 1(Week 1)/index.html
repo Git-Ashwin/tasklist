@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h2>Job Portal</h2>                           
+        </nav>
+    </header>
+    <main>
+        <div class="wrapper">
+
+            <div class="heading">
+                <br><br>
+                <h1 class="title">Fill your job application</h1>        
+            </div><br>
+            <form class="formTag" name="register" >
+                <div class="formEleLeft">
+                    <div class="formInput">
+                        <label class="labelClass">
+                            First Name
+                        </label>
+                        <div class="inner">
+                            <input type="text" placeholder="Enter first name" class="formInput" name="fname">
+                        </div>
+                    </div><br> 
+                   <div class="formInput">
+                        <label class="labelClass">
+                            Email ID 
+                        </label>
+                        <div class="inner">
+                            <input type="text" placeholder="Enter your Email address" class="text" name="email" >
+                        </div>
+                    </div><br> 
+                    <div class="formInput">
+                        <label class="labelClass">
+                            Password 
+                        </label>
+                        <div class="inner">
+                            <input type="password" minlength="6" placeholder="(minimum 6 characters) " class="text" name="password">
+                        </div>
+                    </div> <br>
+                    <div class="formInput">
+                        <label class="labelClass">
+                            Experience in years
+                        </label>
+                        <div class="inner">
+                            <input type="text" placeholder="Enter your experience in years" class="text" name="experience" >
+                        </div>
+                    </div><br>
+                    <div class="formInput">
+                        <label class="labelClass">
+                            Upload CV/Resume 
+                        </label>
+                        <div class="inner">
+                            <input type="file" name="upload" id="upload">
+                        </div>
+                    </div> 
+                </div>
+                <div class="formEleRight"> 
+                    <div class="formInput">
+                        <label class="labelClass">
+                            Last Name
+                        </label>
+                        <div class="inner">
+                            <input type="text" placeholder="Enter last name" class="formInput" name="lname">
+                        </div>
+                    </div><br>                                   
+                    <div class="formInput">
+                        <label class="labelClass">
+                            Mobile Number 
+                        </label>
+                        <div class="inner">
+                            <input type="text" maxlength="10" placeholder="Enter your mobile number" class="text" name="mobileNo">
+                        </div>
+                    </div><br> 
+                    <div class="formInput">
+                        <label class="labelClass">
+                            Role
+                        </label>
+                        <div class="inner">
+                            <select class="dropdown" id="role">
+                                <option value="noneSelected">Select role</option>
+                                <option value="frontEndDev">Front End Developer</option>
+                                <option value="backEndDev">Back End Developer</option>
+                                <option value="uiux">UI UX Developer</option>
+                                <option value="fullStackDev">Full Stack Developer</option>
+                            </select>
+                        </div><br>
+                        <div class="formInput">
+                            <label class="labelClass">
+                                Preferred Location
+                            </label>
+                            <div class="inner">
+                                <input type="text" placeholder="Enter your preferred location" class="text" name="plocation" >
+                            </div>
+                        </div><br>
+                    </div>
+                </div>
+               
+            </form>            
+        </div>
+        <div class="formBtn">
+            <br><br><br>
+            <input type="submit" value="Apply Now" id = "submit">
+        </div>
+    </main>
+</body>
+</html>

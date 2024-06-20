@@ -1,0 +1,48 @@
+
+.heading{
+    text-align: center  ;
+}
+
+.formTag{
+    display: flex;
+}
+
+.formEleLeft{
+    padding-left: 15%;
+    flex: auto;
+}
+
+.formEleRight{
+    flex: auto;
+}
+
+label{
+    margin-bottom: 10px;
+}
+
+input,select {
+    width : 50%;
+    padding : 12px 20px;
+    margin : auto;
+    border: 1px solid gray;
+}
+
+input:focus{
+    outline-color: blue;
+}
+
+input:hover{
+    box-shadow: inset 0px 0px 10px skyblue;
+}
+
+.formBtn{
+    display: flex;
+    justify-items: auto;
+    padding: 5% 10% 45% 10%;
+    
+}
+
+#submit:hover{
+    cursor: pointer;
+}
+
